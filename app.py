@@ -5,6 +5,9 @@ import streamlit as st
 import pandas as pd
 import re
 import nltk
+nltk.download('punkt')
+nltk.download('stopwords')
+import nltk
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 from io import BytesIO
